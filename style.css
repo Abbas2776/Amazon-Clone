@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #fff; */
+    
+    
+}
+
+.navbar{
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid rgb(255, 183, 29); */
+    cursor: pointer;
+}
+
+
+
+.nav-logo{
+    width: 113px;
+    height: 50px;
+    
+    /* background: blue; */
+}
+
+.logo{
+    width: 100%;
+    height: 50px;
+    background-image: url(/files/amazon_logo.png);
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    padding: 10px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box 2 */
+.address .add-frst{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 14px;
+}
+
+.address .add-sec{
+    font-size: 0.85rem;
+    margin-left: 2px;
+    color: white;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background: pink;
+    width: 650px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+
+
+.nav-search .search-select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.nav-search .search-input{
+    width: 100%;
+    border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 166, 6, 0.938);
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* box3 */
+
+.nav-country{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+    font-size: 0.85rem;
+    
+}
+
+.nav-signin{
+    color: white;
+}
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 4 */
+
+/* b0x 5 */
+
+.nav-return{
+    color: white;
+}
+
+/* box 6 */
+
+.nav-cart i{
+    color: white;
+    font-size: 28px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* panneel frst navbar k nechy wala */
+
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: rgb(70, 66, 66);
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+
+.panel .panel-ops a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.panel-ops{
+    width: 80%;
+}
+
+/* hero section jisme background image laga hai main ki trha ha */
+
+section .hero-section{
+    background-image: url(/files/hero_image.jpg);
+    height: 400px;
+    width: 100vw;
+    background-size: cover;
+    /* background-position: center center; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.hero-section .hero-msg{
+    background-color: white;
+    color: black;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.hero-msg a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.9rem;
+}
+
+
+/* shop section */
+
+.shop-section{
+    /* margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #e2e7e6;
+    padding: 12px 0px;
+    overflow-x: hidden;
+
+    row-gap: 12px;
+}
+
+.box{
+    width: 24%;
+    height: 350px;
+    /* border: 2px solid blue; */
+    background-color: white;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.box-image{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 80%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.shop-section p{
+    color: #007185;
+}
+
+footer .foot-panel{
+    font-size: 1rem;
+    background-color:#37475a;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.foot-panel a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    background-color: #222f3d;
+
+}
+
+footer .foot-panel2 p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+footer .foot-panel2 ul a{
+    display: block;
+    text-decoration: none;
+    color:#dddddd;
+    margin-top: 12px;
+    font-size: 0.75rem;
+    
+}
+
+.foot-panel3{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    border-top: 0.3px solid gray;
+}
+
+.foot-panel4{
+    background-color: black;
+    height: 40px;
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+}
+.foot-panel4 a{
+    /* text-decoration: none; */
+    color: white;
+    margin: 0px 5px;
+    
+}
+
+.foot-panel4 p{
+    margin-top: 5px;
+}
